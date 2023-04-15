@@ -1,6 +1,8 @@
 import './App.css';
 import Logo from './componentes/Logo'
 import { Route, RouteObject } from 'react-router-dom';
+import styled from 'styled-components';
+
 function App() {
   return (
     <div className='App'>
