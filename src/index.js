@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import { createGlobalStyle } from 'styled-components';
-
+import { BrowserRouter } from 'react-router-dom';
 
 
 const GlobalStyle = createGlobalStyle`
@@ -23,9 +23,9 @@ const GlobalStyle = createGlobalStyle`
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

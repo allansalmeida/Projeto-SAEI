@@ -1,7 +1,7 @@
 .App {
   width: 100vw;
   height: 100vh;
-  background-image: url("./imagens/fundo.png");
+  background-image: url("../imagens/fundo.png");
 }
 
 .App-header {

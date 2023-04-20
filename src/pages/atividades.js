@@ -1,14 +1,16 @@
-import './App.css';
-import Logo from './componentes/Logo'
+import Logo from '../componentes/Logo'
+import { Route, RouteObject } from 'react-router-dom';
+import styled from 'styled-components';
 
-function App() {
+function Atividades() {
   return (
     <div className='App'>
-       <header className='App-header'>
         <Logo></Logo>
-      </header>
+      <div>
+        teste
+      </div>
     </div>
   ); 
 }
 
-export default App;
+export default Atividades;
